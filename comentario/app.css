@@ -1,0 +1,174 @@
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    line-height: 1.4;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    color: black;
+    font-family: "Arial", Segoe UI, Tahoma, sans-serifl, Helvetica Neue, Helvetica;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: white;
+    overflow: hidden;
+    float: left;
+    margin: 0;
+    left: 50%;
+    transform: translatex(-50%);
+    position: relative;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color:#c197df;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color:#5c019d;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+
+
+
+.comentarios-usuarios {
+    width: calc(100% - 2.5rem);
+}
+
+.contenedor-comentarios a {
+    text-decoration: none;
+}
+
+.comentar-publicacion .avatar,
+.publicacion-realizada .usuario-publico .avatar,
+.contenedor-comentarios .comentario-principal-usuario .avatar,
+.area-comentar .avatar {
+    display: flex;
+    width: 65px;
+    height: 65px;
+    background-color: #F4F4F4;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.comentarios-usuarios .nombre-usuario {
+    font-weight: bold;
+    margin-right: .5rem;
+    color: inherit;
+}
+
+.contenedor-comentarios .comentario-principal-usuario .comentario {
+    flex-grow: 1;
+    flex-basis: 0;
+    margin-left: .5rem;
+}
+
+
+
+.contenedor-comentarios .comentario-principal-usuario .texto,
+.area-comentario .p {
+    border: 0;
+    background-color: rgb(230, 227, 227);
+    display: block;
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: .5rem;
+    text-align: justify;
+}
+
+.area-comentar .inputs-comentarios .area-comentario {
+    padding: 12px 15px;
+}
+
+.area-comentar .inputs-comentarios .botones-comentar {
+    display: flex;
+}
+
+/* comentarios de usuario */
+.comentarios-usuarios .comentario-principal-usuario {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.comentarios-usuarios .usuario-comentario {
+    width: 100%;
+    display: block;
+    margin-bottom: 0.75rem;
+    position: relative;
+}
+
+.comentarios-usuarios .usuario-comentario .menu-comentario {
+    top: 5px;
+    right: -15px;
+    box-shadow: 0 0 5px rgba(241, 222, 222, 0.4);
+}
+
+.comentarios-usuarios .usuario-comentario:hover .menu-comentario {
+    display: flex;
+}
+
+.publicacion-realizada .menu-comentario {
+    display: flex;
+    right: 0;
+}
+
+
+.publicacion-realizada .usuario-publico .avatar,
+.comentarios-usuarios .comentario-principal-usuario .avatar {
+    width: 45px;
+    height: 45px;
+}
+
+.comentarios-usuarios .comentario-principal-usuario .texto {
+    padding: 10px 15px;
+    width: auto;
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: .25rem;
+    font-size: 0.9rem;
+    position: relative;
+    padding-right: 1.65rem;
+}
+
+.comentarios-usuarios .comentario-principal-usuario .comentar-comentario {
+    width: 100%;
+    display: flex;
+}
+/* seccion para que el usuario mande su historia */
+.section-container{
+    background-color: rgb(245, 239, 229);
+    text-align:center
+}
